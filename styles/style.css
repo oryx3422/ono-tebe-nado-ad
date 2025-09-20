@@ -1,1 +1,88 @@
-/* место для вашего кода */
+
+/* HEADER START */
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  gap: 20px;
+  padding: 98px 50px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.header__links-list {
+  display:flex; 
+  gap:25px; 
+  list-style:none;
+}
+
+.header__link-active {
+  text-decoration: none;
+}
+
+.header__logo{
+  display: block;
+  justify-self: center;
+  width: 148px;
+  height: 105px;
+  background: url("../images/logo-black.svg") center/contain no-repeat; /*????*/
+}
+
+.header__contacts {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  justify-self: end;
+  gap: 4px;
+  text-align: left;
+}
+
+.header__contact {
+  text-underline-offset: 4px;
+}
+
+/* HEADER END*/
+
+/* MAIN START */
+
+main {
+  border: 2px solid #f42ef4;
+}
+
+/* COVER START */
+
+.cover {
+  background: url("../images/cover.jpg") center no-repeat;
+  color: #fff;
+}
+
+.cover__title {
+  padding: 165px 50px 207px 50px;
+  text-transform: uppercase;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-end {
+  text-align: end;
+}
+
+.cover__title span {
+  display: block;
+  width: 100%;
+}
+
+/* COVER END */
+
+/* MAIN END */
+
+/* FOOTER START */
+.footer {
+  border: 2px solid #f42ef4;
+}
+
+/* FOOTER END */
