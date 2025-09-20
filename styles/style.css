@@ -5,7 +5,7 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   margin: 0 auto;
-  padding: 92px 50px;
+  padding: 96px 50px;
   font-size: 18px;
 }
 
@@ -94,7 +94,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: auto;
   margin-top: 145px;
   word-spacing: 19px;
 }
