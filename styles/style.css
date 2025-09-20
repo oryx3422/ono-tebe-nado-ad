@@ -99,7 +99,6 @@
 }
 
 .cover__description-text {
-  color: #fff;
   font-family: "Raleway", sans-serif;
   font-size: 22px;
   text-transform: uppercase;
@@ -114,6 +113,8 @@
   text-transform: uppercase;
   background: transparent;
   cursor: pointer;
+  color: #fff;
+
 }
 
 .cover__description-button:hover {
